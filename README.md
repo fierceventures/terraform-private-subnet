@@ -1,5 +1,4 @@
 # AWS Private Subnet
-=============================
 
 This module can be used to deploy an AWS private subnet.
 
