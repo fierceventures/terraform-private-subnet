@@ -1,7 +1,7 @@
 # VPC Private Subnets
 resource "aws_subnet" "private_subnet" {
   vpc_id = "${var.vpc_id}"
-  cidr_block = "172.31.2.0/24"
+  cidr_block = "${var.cidr_block}"
   map_public_ip_on_launch = true
   availability_zone = "${var.region}a"
 }
